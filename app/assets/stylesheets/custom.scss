@@ -23,6 +23,14 @@ textarea {
   margin-bottom: 10px;
 }
 
+.label-form {
+  margin-top: 5px;
+}
+
+.btn-form {
+  margin-top: 10px;
+}
+
 /* タイポグラフィ */
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,7 +41,10 @@ h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
+  font-weight: bold;
+  font-style: italic;
   text-align: center;
+  
 }
 
 h2 {
@@ -42,7 +53,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: black;
 }
 
 p {
@@ -56,17 +67,41 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
+  font-style: italic;
   color: #fff;
-  text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  &:hover {
+    color: silver;
+    text-decoration: none;
+  }
 }
 
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
+li .header-list {
+  color: #fff !important;
+  font-weight: bold;
+  &:hover {
+    color: silver !important;
+  }
 }
+
+
+
+.nav-link, a{
+  color: white; 
+  font-weight: bold;
+}
+
+.nav-link:hover{
+  color: gray;
+}
+
+.nav li a:hover{
+  color: gray;
+  background-color: transparent !important;
+}
+
 
 /* デバッグウインドウ */
 
@@ -96,3 +131,14 @@ p {
     color: $state-danger-text;
   }
 }
+
+#header {
+  background-color: teal;
+}
+
+/* トップ */
+.taskapp p{
+  font-size: 15px;
+}
+
+
