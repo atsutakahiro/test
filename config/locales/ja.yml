@@ -206,3 +206,10 @@ ja:
       short: "%m/%d %H:%M"
       time: "%H：%M"
     pm: 午後
+  sessions:
+    new:
+      email: メールアドレス
+      password: パスワード
+    show:
+      name: 名称
+      
